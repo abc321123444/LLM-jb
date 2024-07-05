@@ -42,7 +42,7 @@ Then, set the path to the pretrained checkpoint in the evaluation config file [e
 
 **4. Prepare LLama-Guard-2**
 
-Download the LLama-Guard-2 at  [Download]([https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B)). 
+Download the LLama-Guard-2 at  [Download]([https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B]).  
 
 Then set the LLama-Guard2 path 
   [here](minigpt4/configs/models/minigpt4_llama2.yaml#L15) at Line 15.
