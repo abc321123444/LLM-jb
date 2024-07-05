@@ -40,10 +40,14 @@ Download the pretrained model checkpoints of MiniGPT-4 (LLaMA-2 Chat 7B) at  [Do
 
 Then, set the path to the pretrained checkpoint in the evaluation config file [eval_configs/minigpt4_llama2_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#L10).   
 
+If you want to jailbreak other large language models, you can use the suffix generated on LLaMA-2 to jailbreak in a black box manner, or use the MiniGPT-4 method to introduce vision modules to large language models and jailbreak them.
+
 
 
 # Launching Demo Locally
+First , run [here](best_init_img.ipynb) to get a good initial img for LLM-jb in the next step.
 
+Then , run the following command to jailbreak LLM.
 ```
 python LLM_jb.py --cfg-path eval_configs/minigpt4_llama2_eval.yaml --gpu-id 0 --class_tag S1 --attack_power 128 
 ```
