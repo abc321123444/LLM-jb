@@ -45,7 +45,7 @@ If you want to jailbreak other large language models, you can use the suffix gen
 
 
 # Launching Demo Locally
-First , run [here](best_init_img.ipynb) to get a good initial img for LLM-jb in the next step.
+First , run [best_init_img.ipynb](best_init_img.ipynb) to get a good initial img for LLM-jb in the next step.
 
 Then , run the following command to jailbreak LLM.
 ```
