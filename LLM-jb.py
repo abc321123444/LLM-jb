@@ -49,7 +49,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Demo")
     parser.add_argument("--cfg-path", default='eval_configs/minigpt4_llama2_eval.yaml', help="path to configuration file.")
     parser.add_argument("--class_tag", type=str, default="S1")
-    parser.add_argument("--img_path", type=str, default="./images/1.png")
+    parser.add_argument("--img_path", type=str, default="./dataset/advimage/S1/1.png")
     parser.add_argument("--device_id", type=int, default="0")
     parser.add_argument("--attack_power", type=int, default="128")
     parser.add_argument(
