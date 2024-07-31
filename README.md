@@ -60,18 +60,6 @@ Then , run the following command to jailbreak LLM.
 python LLM_jb.py --cfg-path eval_configs/minigpt4_llama2_eval.yaml --gpu-id 0 --class_tag S1 --attack_power 128 
 ```
 
-
-## Citing our work
-The preprint can be cited as follows
-```
-@article{niu2024efficient,
-  title={Efficient LLM-Jailbreaking by Introducing Visual Modality},
-  author={Niu, Zhenxing and Sun, Yuyao and Ren, Haodong and Ji, Haoxuan and Wang, Quan and Ma, Xiaoke and Hua, Gang and Jin, Rong},
-  journal={arXiv preprint arXiv:2405.20015},
-  year={2024}
-}
-```
-
 ## Acknowledgement
 
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) This repository is built upon MiniGPT-4!
